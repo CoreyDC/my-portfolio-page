@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    border-bottom: 2px solid black;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+} 
+
+header div {
+    
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
