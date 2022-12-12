@@ -2,22 +2,36 @@
     box-sizing: border-box;
 }
 
-body {
+body,
+figure {
     text-align: center;
+    margin: 0 auto;
+    padding: 0;
 }
 
 header {
+    background-image: url('../images/header-background.jpg');
+    background-size: contain;
+    color: #fff;
+    padding: 5%;
+}
+
+.header-image img {
+    width: 50%;
+    color: white;
+    margin-top: 20px;
+    border-radius: 6%;
+}
+
+header,
+.subtitle {
     border-bottom: 2px solid black;
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 3px;
 } 
 
-header div {
-    
-}
-
 nav a {
-    color: black;
+    color: #fff;
 }
 
 nav a:hover {
