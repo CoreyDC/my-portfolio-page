@@ -7,33 +7,63 @@ figure {
     text-align: center;
     margin: 0 auto;
     padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 4px;
 }
 
 header {
     background-image: url('../images/header-background.jpg');
-    background-size: contain;
+    background-size: cover;
     color: #fff;
     padding: 5%;
 }
 
 .header-image img {
     width: 50%;
-    color: white;
     margin-top: 20px;
     border-radius: 6%;
 }
 
-header,
-.subtitle {
-    border-bottom: 2px solid black;
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 3px;
-} 
+nav {
+    margin-top: 30px;
+}
 
 nav a {
     color: #fff;
+    font-weight: 400;
 }
 
 nav a:hover {
     cursor: pointer;
+}
+
+.subtitle {
+    margin-bottom: 10%;
+    padding: 5%;
+}
+
+.subtitle h2,
+footer {
+    font-family: 'Rubik Vinyl', 'Orbitron', sans-serif;
+}
+
+h3 {
+    font-family: 'Press Start 2P', 'Orbitron', sans-serif;
+    line-height: 200%;
+}
+
+section {
+    padding: 5%;
+    border-bottom: 2px solid black;
+}
+
+main {
+    background-image: url('../images/main-background.jpg');
+    background-size: contain;
+}
+
+.profile-pic img {
+    width: 50%;
+    margin: 3%;
+    border-radius: 50%;
 }
