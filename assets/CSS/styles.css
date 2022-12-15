@@ -262,19 +262,11 @@ h4 {
         padding: 5%;
     }
 
-    .projects-container img {
-        
-    }    
-
-    .resume-container,
-    .study-guide-container,
-    .module-1-container {
+    .proj {
         position: relative;
     }
     
-    .resume-container p,
-    .study-guide-container p,
-    .module-1-container p {
+    .proj p {
         position: absolute;
         bottom: 5%;
         left: 0                                       /*  PROJECTS MEDIA DONE 768 */              
