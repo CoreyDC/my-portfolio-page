@@ -80,6 +80,10 @@ nav {
     margin-top: 30px;
 }
 
+nav li {
+    font-size: small;
+}
+
 nav a {
     color: #fff;
     font-weight: 400;
@@ -170,15 +174,21 @@ figure p {
 /* FOOTER STYLES */
 
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
     background-color: #3c3c3c;
     padding-top: 2%;
 }
 
 h4 {
-    display: inline-block;
-    margin-top: 4%;
-    margin-bottom: 0;
+    margin: 0;
     padding: 3%;
+    position: absolute;
+    top: 0;
     background-color: #b4b4b4;
 }
 
@@ -279,7 +289,23 @@ h4 {
         padding: 10px;
     }
 
+    #contact li {
+        font-size: large;
+    }
+
     #contact img {
         width: 100px;
     } 
+
+    /* FOOTER MEDIA Q'S 768 */
+    
+    footer {
+        align-items: flex-end;
+    }
+
+    h4 {
+        width: 50%;
+    }
 } 
+
+/* MEDIA Q'S  */
