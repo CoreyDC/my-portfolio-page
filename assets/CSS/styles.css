@@ -132,7 +132,7 @@ figure p {
     background-color: #b4b4b4;
     padding: 20px;
     margin-top: 8%;
-    font-size: smaller;
+    font-size: x-small;
 }
 
 .projects-container img {
@@ -178,7 +178,7 @@ footer {
     flex-direction: column;
     align-items: center;
     position: relative;
-    height: 100px;
+    height: 6em;
     width: 100%;
     background-color: #3c3c3c;
     padding-top: 2%;
@@ -308,4 +308,46 @@ h4 {
     }
 } 
 
-/* MEDIA Q'S  */
+/* MEDIA Q'S  1024*/
+
+@media screen and ( min-width: 1024px ) {
+    /* HEADER MEDIA Q'S 1024 */
+    
+    .main-header {
+        align-items: flex-start;
+        position: relative;
+    }
+
+    h1 {
+        position: absolute;
+        top: -80%;
+        left: -4%;
+    }
+
+    nav {
+       position: relative;
+    }
+
+    .main-nav {
+        position: absolute;
+        left: 70%;
+        bottom: 80px;
+    }
+
+    /* PROFILE PIC MEDIA Q'S 1024 */
+
+    #about-me img {
+        width: 10%;
+        top: 150px;
+        left: 100px;
+    }
+}
+
+@media screen and ( min-width: 1300px ) {
+
+    /* Media Q for footer background */
+        footer {
+            height: 10em;
+        }
+
+}
